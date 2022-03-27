@@ -1,0 +1,84 @@
+body {
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+/*Header/Titulo Blog*/
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #aaa;
+}
+
+/*Agregar color de fonto al topnav*/
+.topnav {
+    background-color: #aaa;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/*Dar estilo a los links dentro del topnav*/
+.topnav a {
+    /*float: left;*/
+    columns: #f2f2f2;
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*Cambiar el color de los links con hover*/
+.topnav a:hover {
+    background-color: #ddd;
+}
+
+/*Agregar color de activo al link actual*/
+/*
+.topnav a.active {
+    background-color: #ddd;
+    color: white;
+}*/
+
+/*Crear dos columnas unicas que flotan una despues de otra*/
+/*Columna izquierda*/
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/*Columna derecha*/
+.rightcolumn {
+    float: right;
+    width: 25%;
+}
+
+/*Imagen falsa*/
+.fakeimg {
+    background-color: #aaa;
+    width: 80%;
+    padding: 20px;
+}
+
+/*Agregar efecto de carta para los articulos*/
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/*Limpiar floats despues de las columnas*/
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Footer*/
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
